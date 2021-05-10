@@ -2,14 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
 <img width="1013" alt="image" src="https://user-images.githubusercontent.com/83820785/117594272-b8d39d00-b178-11eb-9e6f-e3f86f66261f.png">
-詳しく情報を閲覧できます
+<span><b>詳しく情報を閲覧できます</b><span>
 <img width="940" alt="image" src="https://user-images.githubusercontent.com/83820785/117594453-04864680-b179-11eb-9651-0a72edf21090.png">
 
-基本機能
-。ジョブリスト
-。ジョブの詳しく情報
-。ジョブへコメントを
-。メッセージ
+# 基本機能
+。ジョブリスト <br>
+。ジョブの詳しく情報 <br>
+。ジョブへコメントを <br>
+。メッセージ <br>
 
 ## Development server
 
