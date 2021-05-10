@@ -1,0 +1,33 @@
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+  <div class="col" *ngFor="let job of jobs">
+    <div class="card mb-4 rounded-3 shadow-sm">
+      <div class="card-header py-3">
+        <h4 class="my-0 fw-normal">{{job.name}}</h4>
+      </div>
+      <div class="card-body" *ngIf="job.company ==='FramGia'">
+        <h3 class="card-title pricing-card-title">{{job.company}} 会社</h3>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Ruby On Rails</li>
+            <li>My SQL Server</li>
+            <li>Java Script - Angular JS</li>
+            <li>仕様書</li>
+          </ul>
+          <button type="button" (click)="onSelect(job)" class="w-100 btn btn-lg btn-primary">View Detail</button>
+      </div>
+      <div class="card-body" *ngIf="job.company !='FramGia'">
+        <h3 class="card-title pricing-card-title">{{job.company}} 会社</h3>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Ruby On Rails</li>
+            <li>My SQL Server</li>
+            <li>Java Script - Angular JS</li>
+            <li>仕様書</li>
+          </ul>
+          <button type="button" (click)="onSelect(job)" class="w-100 btn btn-lg btn-outline-primary">View Detail</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<h3 class="display-6 text-center mb-4">詳しく情報</h3>
+<app-job-detail [jobDetail]="selectedJob" ></app-job-detail>
