@@ -5,6 +5,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 詳しく情報を閲覧できます
 <img width="940" alt="image" src="https://user-images.githubusercontent.com/83820785/117594453-04864680-b179-11eb-9651-0a72edf21090.png">
 
+基本機能
+。ジョブリスト
+。ジョブの詳しく情報
+。ジョブへコメントを
+。メッセージ
 
 ## Development server
 
