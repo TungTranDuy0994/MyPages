@@ -1,6 +1,10 @@
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
+<img width="1013" alt="image" src="https://user-images.githubusercontent.com/83820785/117594272-b8d39d00-b178-11eb-9e6f-e3f86f66261f.png">
+詳しく情報を閲覧できます
+<img width="940" alt="image" src="https://user-images.githubusercontent.com/83820785/117594453-04864680-b179-11eb-9651-0a72edf21090.png">
+
 
 ## Development server
 
@@ -21,7 +25,3 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
