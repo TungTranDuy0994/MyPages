@@ -1,9 +1,12 @@
 # MyApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.<br>
 日本では色々経験を記載される用のところとしてプロジェクトです
-。日本で働いた経験
-。日本で旅行した有名なところ
+<ul>
+  <li>日本で働いた経験</li>
+  <li>日本で旅行した有名なところ</li>
+</ul>
+
 
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/83820785/117594272-b8d39d00-b178-11eb-9e6f-e3f86f66261f.png">
 
