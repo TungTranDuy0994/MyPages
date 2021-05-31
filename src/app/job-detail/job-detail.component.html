@@ -1,0 +1,25 @@
+<table class="table" *ngIf="jobDetail">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><img class="job-image" src="{{jobDetail.image}}" class="img-thumbnail" alt="..."></th>
+      <td>
+      	<span><b>概要</b></span><br>
+      	<span>{{jobDetail.detail}}</span><br>
+      	<span><b>技術</b></span><br>
+      	<span>{{jobDetail.techology}}</span><br>
+      	<span><b>コメント</b></span><br>
+      	<span>{{jobDetail.comment}}</span><br>
+        
+        <div class="form-floating">
+          <textarea class="form-control" [(ngModel)]="jobDetail.comment" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>

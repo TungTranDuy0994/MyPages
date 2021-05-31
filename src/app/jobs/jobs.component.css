@@ -1,0 +1,15 @@
+.jobs .loop-job:hover {
+  box-shadow: 10px 10px 8px #888888;
+}
+.jobs div.selected {
+
+}
+.jobs div.selected:hover {
+}
+.jobs li.selected:active {
+
+}
+
+input {
+  padding: .5rem;
+}
